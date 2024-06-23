@@ -20,6 +20,10 @@ button {
     padding: 8px 24px;
 }
 
+.section-padding {
+    padding-bottom: 100px;
+}
+
 .hero {
   background-color: #1F2937;
   color: #F9FAF8;
@@ -37,7 +41,6 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
-    margin-bottom: 100px;
 }
 
 .logo {
@@ -64,7 +67,6 @@ ul {
 .hero-main {
     display: flex;
     gap: 32px;
-    margin-bottom: 100px;
 }
 
 .hero-main-left,
@@ -110,6 +112,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1 1 100px;
+    gap: 8px
 }
 
 .info-item img {
@@ -120,4 +123,5 @@ ul {
 
 .info-item div {
     color: #5c5c5c;
+    text-align: center;
 }
