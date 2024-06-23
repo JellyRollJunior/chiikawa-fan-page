@@ -97,6 +97,10 @@ ul {
     margin: 32px 0;
 }
 
+.info-item-container {
+    display: flex;
+}
+
 .info-item {
     display: flex;
     flex-direction: column;
