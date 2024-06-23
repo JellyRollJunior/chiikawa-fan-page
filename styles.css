@@ -99,9 +99,17 @@ ul {
 
 .info-item-container {
     display: flex;
+    gap: 32px;
 }
 
 .info-item {
     display: flex;
     flex-direction: column;
+    flex: 1;
+}
+
+.info-item img {
+    max-width: 100%;
+    border: solid 4px #3882F6;
+    border-radius: 16px;
 }
