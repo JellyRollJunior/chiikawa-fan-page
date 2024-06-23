@@ -82,3 +82,22 @@ ul {
     border: solid 2px #E5E7EB;
     border-radius: 4px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 32px 0;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+}
