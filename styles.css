@@ -161,3 +161,15 @@ ul {
     font-weight: bold;
     text-align: end;
 }
+
+.action {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.action-content {
+    background-color: #3882F6;
+}
