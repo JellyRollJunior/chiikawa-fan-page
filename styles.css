@@ -145,6 +145,7 @@ ul {
     width: 60vw;
     display: flex;
     flex-direction: column;
+    gap: 8px
 }
 
 .quote-text em {
@@ -180,7 +181,7 @@ ul {
     width: 70vw;
     border-radius: 8px;
     justify-content: space-between;
-    padding: 32px 72px;
+    padding: 40px 72px;
 }
 
 .action-left {
