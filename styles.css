@@ -168,8 +168,47 @@ ul {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    padding-top: 100px;
 }
 
 .action-content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
+    color: #F9FAF8;
+    width: 70vw;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 32px 72px;
+}
+
+.action-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.action-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-description {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.action-right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.action-right button {
+    border: 2px solid white;
+    padding: 4px 30px;
 }
